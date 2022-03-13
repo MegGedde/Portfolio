@@ -23,7 +23,5 @@ This website uses the following:
 * HTML
 * CSS
 
-## The Website
-Visit the live site here: https://meggedde.github.io/Portfolio/
 
-Thank you for your time.
+Visit the live site here: https://meggedde.github.io/Portfolio/
