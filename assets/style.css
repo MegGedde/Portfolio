@@ -78,11 +78,12 @@ header nav ul li a:hover {
     justify-content: end;
     border-right: 5px solid var(--secondary-color);
     padding-right: 15px;
+    text-align: right;
 }
 
 .subsection h2 {
     color: var(--secondary-color);
-    font-size: 40px;
+    font-size: 3vw;
 }
 .subsection-info {
     flex: 2 70%;
@@ -170,7 +171,7 @@ header nav ul li a:hover {
 
  .work h2 {
     color: var(--secondary-color);
-    font-size: 40px;
+    font-size: 3vw;
  }
  .bottom-one, .bottom-two {
     background-position: top;
@@ -212,7 +213,7 @@ footer {
 }
 footer h2 {
     color: var(--secondary-color);
-    font-size: 40px;
+    font-size: 3VW;
 }
 .contact {
     display: flex;
@@ -243,3 +244,95 @@ footer h2 {
     text-decoration: none;
     border-bottom: 3px solid var(--secondary-color);   
 }
+  
+  /* MEDIA QUERY FOR 768PX AND SMALLER */
+  @media screen and (max-width: 768px) {
+    .subsection-img {
+        flex: 1 30%;
+    }
+    header {
+        justify-content: center;
+        position: relative;
+        padding: 0;
+      }
+    
+      header h1 {
+        width: 100%;
+        margin-bottom:0;
+        text-align: center;
+        font-size: 6vw;
+      }
+    
+      header nav ul {
+        width: 100%;
+        justify-content: center;
+      }
+
+      header nav ul li a {
+        font-size: 3vw;
+      }
+
+    .subsection-info {
+        flex-direction: column;
+    }
+
+    #about-me {
+        flex-direction:column;
+    }
+
+    .subsection {
+        border-right: none;
+        border-bottom: 5px solid var(--secondary-color);
+        justify-content: center;
+    }
+
+    .subsection-img {
+        margin: 0;
+        text-align: center;
+    }
+    .subsection-img img {
+        margin:0;
+    }
+
+    .work {
+        flex-direction: column;
+        border-right: none;
+        border-bottom: 5px solid var(--secondary-color);
+    }
+    .work h2, .subsection h2, .contact h2 {
+        font-size: 5vw;
+    }
+#work {
+    flex-direction: column;
+}
+  
+#contact-me {
+    flex-direction: column;
+}
+
+.contact {
+    border-bottom: 5px solid var(--secondary-color);
+    border-right: none;
+    justify-content: center;
+    
+}
+
+
+  /* MEDIA QUERY FOR 575PX AND SMALLER */
+  @media screen and (max-width: 575px) {
+.work-box {
+    flex-direction: column;
+}
+.bottom-one, .bottom-two {
+    margin:none;
+    width: 100%;
+}  
+.contact-info ul {
+    flex-direction: column;
+    padding:0;
+    margin-top: 0;
+}
+.contact-info ul li a {
+    border-bottom: none;
+    font-size: 3vw;
+  }
