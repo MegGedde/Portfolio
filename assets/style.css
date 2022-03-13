@@ -316,7 +316,7 @@ footer h2 {
     justify-content: center;
     
 }
-
+  }
 
   /* MEDIA QUERY FOR 575PX AND SMALLER */
   @media screen and (max-width: 575px) {    
