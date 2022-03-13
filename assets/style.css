@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0b90b1;
+    --secondary-color: #002e3a;
+    --tertiary-color: #abc8ca;
+}
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--tertiary-color);
+}
+/* Header/Navigation Bar*/
+header {
+    background-color: var(--secondary-color);
+    flex-wrap: wrap;
+    padding: 15px 15px 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 5px 5px 5px 50px;
+}
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+header nav {
+    padding: 20px 40px 20px 40px;
+}
+header nav ul {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 15px;
+    font-size: 2vw;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9);
+}
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+.hero {
+    background-image: url(./leopard.jpg);
+    background-position: center;
+    justify-content: end;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 80px 0 20px 0;
+}
+.hero p {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+}
+
+/* About Me Section*/
+.subsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex:1 15%;
+    justify-content: end;
+}
+
+.subsection h2 {
+    color: var(--secondary-color);
+    font-size: 40px;
+}
+.subsection-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-left: 5px solid var(--secondary-color);
+    margin: 15px;
+  }
+.subsection-img img {
+    width: 75%;
+    margin-left: 40px;
+}
+.subsection-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+.subsection-bio {
+    flex:12;
+}
+#about-me {
+    display: flex;
+    flex-wrap: row;
+} 
+
+/*Work Section*/
+
+
+
+/*Contact Me/Footer*/
+footer {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer h2 {
+    color: var(--secondary-color);
+    font-size: 40px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    flex: 1 15%;
+    text-align: right;
+    justify-content: end;
+}
+.contact-info {
+    flex:2 70%;
+    border-left: 5px solid var(--secondary-color);
+    margin: 15px;
+    align-self: center;
+    
+}
+.contact-info ul {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none; 
+    padding-bottom: 0;
+} 
+.contact-info ul li a {
+    padding: 10px;
+    font-size: 2vw;
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-bottom: 3px solid var(--secondary-color);   
+}
