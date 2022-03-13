@@ -319,7 +319,7 @@ footer h2 {
 
 
   /* MEDIA QUERY FOR 575PX AND SMALLER */
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 575px) {    
 .work-box {
     flex-direction: column;
 }
@@ -336,3 +336,4 @@ footer h2 {
     border-bottom: none;
     font-size: 3vw;
   }
+}
