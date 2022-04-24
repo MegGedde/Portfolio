@@ -187,12 +187,13 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     flex:2 45%;
     margin-top: 20px;
+    text-decoration: none;
 }
 .bottom-one:hover, .bottom-two:hover {
     opacity:100%;
 }
 .bottom-one {
-    background-image: url(./future-1.jpg);
+    background-image: url(./sunbuddy.jpg);
     margin-right: 2%;
 }
 .bottom-two {
@@ -202,6 +203,7 @@ header nav ul li a:hover {
     font-size: 1.5vw;
     background-color: var(--primary-color);
     margin-top: 0;
+    margin-bottom: 0;
     padding: 2px 15px 5px 15px;
 }
 /*Contact Me/Footer*/
